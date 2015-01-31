@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/t/css/basic.css"/>
+    <link rel="stylesheet" type="text/css" href="/t/css/layout.css"/>
+    <title>{% block title %}{{ site.title }}{% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        <div class="site">
+            <ul class="nav">
+                <li><a href="/archive?use=tags">标签云</a></li>
+                <li><a href="/archive?use=time">时间线</a></li>
+                <li><a href="/feed">RSS</a></li>
+            </ul>
+            <h1><a href="/">{{ site.title or 'THIS IS MY SITE'}}</a></h1>
+        </div>
+
+        {% block content %}
+
+        {% endblock %}
+
+    </div>
+
+    {% include 'include/footer.html' %}
+
+</body>
+</html>
