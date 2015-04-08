@@ -54,6 +54,7 @@ ul p, ol p{
 
 img{
     border: none;
+    max-width: 100%;
 }
 
 ul li{
