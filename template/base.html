@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
     <link rel="stylesheet" type="text/css" href="/t/css/basic.css"/>
     <link rel="stylesheet" type="text/css" href="/t/css/layout.css"/>
+    <!-- <link rel="favicon icon" type="image/png" href="/img/t2.png"/> -->
     <title>{% block title %}{{ site.title }}{% endblock %}</title>
 </head>
 <body>
@@ -12,7 +15,6 @@
             <ul class="nav">
                 <li><a href="/archive?use=tags">标签云</a></li>
                 <li><a href="/archive?use=time">时间线</a></li>
-                <li><a href="/feed">RSS</a></li>
             </ul>
             <h1><a href="/">{{ site.title or 'THIS IS MY SITE'}}</a></h1>
         </div>

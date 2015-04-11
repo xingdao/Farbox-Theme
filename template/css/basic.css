@@ -32,9 +32,11 @@ h3 {
     font-size: 1.2em
 }
 
+
 ul, ol {
     line-height: 2.1;
 }
+
 
 ul{
     padding: 5px 38px;
@@ -99,7 +101,7 @@ th, td {
 
 code{
     border: 1px solid #e0e0e0;
-    background: #F8F8F8;
+    background: #F5F5AB;
     padding: 0 5px;
     margin: 0 2px;
     font-family: Menlo, monospace;
